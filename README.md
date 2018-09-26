@@ -3,6 +3,7 @@ DecoDebug will print out and log basic debug information such as:
 - Values of all arguments being passed into a function
 - The return value of a function
 - The number of times that function has been called
+
 It works by decorating each function in question with @Debug(<optional_level>) where <optional_level>
 is the debugging priority level. This can be set so not all decorated functions output debug information
 if a user only cares about some important ones.
